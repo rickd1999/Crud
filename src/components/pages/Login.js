@@ -26,8 +26,8 @@ const Login = ({Login , error}) => {
                 <label htmlFor="password">Password:</label>
                 <input type="password" name="password" id="password" onChange={e => setDetails({...details, password: e.target.value})} value={details.password}/>
             </div><br />
-            {/* <input type="submit" value="LOGIN"/> */}
-            <Link className="btn btn-primary btn-sm" value="LOGIN" to="/">Login</Link>
+           <input type="submit" value="LOGIN"/>
+            {/* <Link className="btn btn-primary btn-sm" value="LOGIN" to="/">Login</Link> */}
         </div>
        </form>
     )
